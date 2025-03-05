@@ -48,19 +48,3 @@ function hasCycle(graph) {
     //returns whether or not cycle was found
     return found;
 }
-
-//should be true
-// let graph = {
-//     'A': ['B', 'D'],
-//     'B': ['A', 'C', 'D'],
-//     'C': ['B', 'D'],
-//     'D': ['A', 'B', 'C']
-// };
-// console.log(hasCycle(graph));
-
-// let graph2 = {
-//     'A': ['B'],
-//     'B': ['C'],
-//     'C': []
-// };
-// console.log(hasCycle(graph2));
