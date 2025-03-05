@@ -10,6 +10,7 @@ depending on whether the given graph contains a cycle or not.
 I have not provided any test code, but you can base yours on test code from
 other exercises. Your tests must check the correctness of the result of running
 the function and run automatically when you commit through a GitHub action.
+I referenced these two links when looking into cycles, as well as, referencing the depth first search https://www.geeksforgeeks.org/walks-trails-paths-cycles-and-circuits-in-graph/ and https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
 
 ## Runtime Analysis
 
