@@ -17,3 +17,6 @@ I referenced these two links when looking into cycles, as well as, referencing t
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+When we start, we go through each vertex, calling the recursive function to look at the path of each vertex, which gives us O(V). In the recursive call, we check the path of the current recursive call and check each edge, which would give us O(E). In total, this gives us a worst complexity of $\Theta$(V+E) since this would mean going through each node and going through the entire path to find all cycles.
+
